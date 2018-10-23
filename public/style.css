@@ -1,0 +1,29 @@
+body {
+  background-color: #f2e5b3;
+  font-family: Courier New;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    text-align: center;
+    border: none;
+}
+li a {
+    float: center;
+    color: #f2e5b3;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: darkgrey;
+  }
+
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+/* form.ul {
+  background-color: #f2e5b3;
+  color: grey;
+} */
