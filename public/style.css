@@ -1,17 +1,18 @@
 body {
-  background-color: #f2e5b3;
+  background-color: #505567;
   font-family: Courier New;
+  font-size: 20px;
 }
-ul {
+ul.home {
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: #3b3f4c;
     text-align: center;
     border: none;
 }
 li a {
     float: center;
-    color: #f2e5b3;
+    color: grey;
     text-decoration: none;
 }
 li a:hover {
@@ -23,7 +24,30 @@ h1 {
   color: grey;
 }
 
-/* form.ul {
-  background-color: #f2e5b3;
+h2{
+  font-size: 20px;
   color: grey;
-} */
+}
+
+h3{
+  font-size: 20px;
+  text-decoration: none;
+  color: darkgrey;
+}
+
+ul.new {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #505567;
+  color: grey;
+  text-align: left;
+  border: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
